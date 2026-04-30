@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D8X4 — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">d8x4<span class="accent">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#achievements">achievements</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-pre">hey, i'm</p>
+      <h1 class="hero-name">D8X4</h1>
+      <p class="hero-sub">python · bash · html/css · linux · hobbyist dev</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">see my work</a>
+        <a href="#contact" class="btn btn-ghost">get in touch</a>
+      </div>
+    </div>
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="terminal-title">~/portfolio</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="t-prompt">d8x4@zorin</span> <span class="t-path">~/portfolio</span> <span class="t-sym">❯</span>
+          whoami</p>
+        <p class="t-out">just a humble python html css bash scripter</p>
+        <p><span class="t-prompt">d8x4@zorin</span> <span class="t-path">~/portfolio</span> <span class="t-sym">❯</span>
+          ls projects/</p>
+        <p class="t-out">discord-bot&nbsp;&nbsp;minescript&nbsp;&nbsp;bash-scripts&nbsp;&nbsp;scrapy</p>
+        <p><span class="t-prompt">d8x4@zorin</span> <span class="t-path">~/portfolio</span> <span class="t-sym">❯</span>
+          <span class="cursor">█</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <h2 class="section-title">about <span class="accent">me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>i'm a hobbyist developer and linux enthusiast running <strong>Zorin OS</strong> with a heavily customized
+            setup. i got into coding through curiosity and just kept going.</p>
+          <p>i work mostly in <strong>Python</strong> and <strong>Bash</strong>, with some HTML/CSS on the side. when
+            i'm not scripting i'm playing minecraft on hypixel or watching anime.</p>
+          <p>currently learning linux sysadmin concepts and working toward certifications.</p>
+        </div>
+        <div class="about-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Bash</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">Linux</span>
+          <span class="tag">discord.py</span>
+          <span class="tag">Git</span>
+          <span class="tag">Zorin OS</span>
+          <span class="tag">Minecraft</span>
+          <span class="tag">Scrapy</span>
+          <span class="tag">OpenCV</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section alt" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">projects<span class="accent">.</span></h2>
+      <div class="projects-grid">
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-lang python">Python</span>
+          </div>
+          <h3>Discord Bot</h3>
+          <p>feature-rich bot with Fernet-encrypted token, API integrations (NASA, Roblox, Spotify, anime GIFs), and a
+            multi-server message count leaderboard.</p>
+          <div class="card-tags">
+            <span>discord.py</span><span>asyncio</span><span>aiohttp</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-lang python">Python</span>
+          </div>
+          <h3>Minescript Automation</h3>
+          <p>suite of Minecraft automation scripts — waypoint logger, health/mob alerts, tree chopper, bridge builder,
+            chest organizer, and a Hypixel Skyblock auto-fisher.</p>
+          <div class="card-tags">
+            <span>Minescript</span><span>pyautogui</span><span>pynput</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-lang bash">Bash</span>
+          </div>
+          <h3>Bash Script Suite</h3>
+          <p>collection of shell scripts including a system info dashboard, interactive menu launcher, port
+            scanner/killer, file renamer, and image-to-GIF converter.</p>
+          <div class="card-tags">
+            <span>Bash</span><span>Linux</span><span>ffmpeg</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-lang python">Python</span>
+          </div>
+          <h3>Watchlist Scraper</h3>
+          <p>scrapy-based scraper for aniwatchtv with cookie-based auth, CSS selector pagination, and session handling
+            to pull my full anime watchlist.</p>
+          <div class="card-tags">
+            <span>Scrapy</span><span>Python</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section" id="achievements">
+    <div class="section-inner">
+      <h2 class="section-title">achievements<span class="accent">.</span></h2>
+      <div class="achievements-list">
+        <div class="achievement">
+          <span class="ach-icon">🐧</span>
+          <div>
+            <h4>Linux Daily Driver</h4>
+            <p>switched to Zorin OS full time, configured Kitty terminal, fastfetch with custom anime art, and fixed
+              recurring GNOME issues.</p>
+          </div>
+        </div>
+        <div class="achievement">
+          <span class="ach-icon">🤖</span>
+          <div>
+            <h4>Discord Bot w/ 15+ Commands</h4>
+            <p>built and deployed a multi-server Discord bot with encrypted tokens and external API integrations from
+              scratch.</p>
+          </div>
+        </div>
+        <div class="achievement">
+          <span class="ach-icon">⛏️</span>
+          <div>
+            <h4>Minecraft Automation Suite</h4>
+            <p>wrote 8+ automation scripts for Lunar Client using Minescript's Python API, including a full chest
+              organizer with IPC.</p>
+          </div>
+        </div>
+        <div class="achievement">
+          <span class="ach-icon">📡</span>
+          <div>
+            <h4>Network Troubleshooting</h4>
+            <p>diagnosed and fixed persistent WiFi dropout on Linux via power management udev rules and ProtonVPN GPG
+              issues.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section alt" id="contact">
+    <div class="section-inner contact-inner">
+      <h2 class="section-title">contact<span class="accent">.</span></h2>
+      <p class="contact-sub">feel free to reach out or check out my stuff below.</p>
+      <div class="socials">
+        <a href="https://github.com/D8X4" class="social-btn" target="_blank">GitHub</a>
+        <!-- add more socials here -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>built by <span class="accent">d8x4</span> · hosted on github pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
