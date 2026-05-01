@@ -1,4 +1,4 @@
-Just my take on a Portfolio, lowkey vibe coded the html and js portion
+Just my take on a Portfolio, lowkey vibe coded some of the html and js portion
 
 Link;
 https://d8x4.github.io/Portfolio/
