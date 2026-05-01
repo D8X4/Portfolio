@@ -4,3 +4,4 @@ Link;
 https://d8x4.github.io/Portfolio/
 
 refreshed link so it works
+added hyperlinks to my github on the projects portion
